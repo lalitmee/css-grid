@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.small-text {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.smaller-text {
+    text-align: center;
+    padding: 5px;
+    color: orange;
+    font-size: 20px;
+}
+
+.link {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sublink {
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 3px;
+    grid-auto-rows: 100px;
+}
+
+.red {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: orange;
+}
+
+.yellow {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: #90e890;
+}
+
+.green {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: orange;
+}
+
+.blue {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: #90e890;
+}
+
+.skyblue {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: orange;
+}
+
+.pink {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: #90e890;
+}
